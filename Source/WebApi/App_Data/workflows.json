@@ -1,0 +1,20 @@
+{
+  "Workflows.CreateAndDeleteDirectory": {
+    "AssemblyName": "Workflows",
+    "Timeout": "00:30:00",
+    "Parameters": {
+      "FolderName": "System.String"
+    },
+    "Name": "Awesome workflow for creating and deleting a directory",
+    "Id": "Workflows.CreateAndDeleteDirectory"
+  },
+  "Workflows.RunMIKE1DModel": {
+    "AssemblyName": "Workflows",
+    "Timeout": "00:30:00",
+    "Parameters": {
+      "DischargeScale": "System.Double"
+    },
+    "Name": "Run MIKE 1D model (Vida)",
+    "Id": "Workflows.RunMIKE1DModel"
+  }
+}
